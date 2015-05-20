@@ -7,7 +7,7 @@ body#contact {
 		background-size: 100% 100%;
 }
 
-/* body#contact div#wishhere { font: italic;
+div#wishhere { font: italic;
 
 } */
 
@@ -24,6 +24,7 @@ h1 {
 a {
     text-decoration: none;
 		font-weight: bold;
+		font-size: 50px;
 }
 
 div.intro {
