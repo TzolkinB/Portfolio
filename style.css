@@ -1,5 +1,18 @@
-body {
+body#home {
     background: url("perutrail.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+
+body#contact {
+		background: url("makboat.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+		background-size: 100% 100%;
+}
+
+/* body#contact div#wishhere { font: italic;
+
+} */
+
+body#about {background: url("peru10.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+		background-size: 100% 100%;
 }
 h1 {
     color: black;
@@ -25,15 +38,14 @@ div.intro {
     width: 350px;
 }
 
-/* div.intro#stickers {
-	height: "50";
-	width: "50";
 
-} */
-
-h3 {
+ .intro h3 {
     background: none repeat scroll 0 0 #1975a3;
     border-radius: 5px;
     color: white;
     text-align: left;
+}
+
+.intro a {
+	
 }
