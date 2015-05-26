@@ -1,10 +1,10 @@
 /* comment */
 body#home {
-    background: url("perutrail copy.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    background: url("perutrail.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 }
 
 body#contact {
-		background: url("makboatresize.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+		background: url("makboat.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 		background-size: 100% 100%;
 }
 
