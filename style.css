@@ -1,3 +1,23 @@
+.navbar-custom {
+    background-color: #000000;
+}
+
+.navbar-collapse ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2%;
+    float:right;
+
+}
+.navbar-collapse a {  
+    color: #ffffff;
+}
+
+.navbar-text {
+    font-family: 'Architects Daughter', 'san-serif';
+    color: red;
+
+}
 
 body {
     padding-top: 70px;
@@ -60,4 +80,39 @@ div.intro {
     position: relative;
     text-align: left;
     width: 500px;
+}
+
+footer.container-fluid{
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2%;
+    float:right;
+}
+
+footer p {
+    float: left;
+    padding: 2%;
+}
+
+footer a,
+footer p {
+    color: #fff;
+    vertical-align: middle;
+}
+
+/* Media Queries, start collapsing once gets to certain pixels */
+
+@media screen and (max-width: 776px) {
+    .features img {
+        max-width: 90%;
+        margin: auto;
+    }
 }
