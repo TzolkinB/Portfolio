@@ -1,20 +1,23 @@
-/*-- comment */
+
+body {
+    padding-top: 70px;
+}
+
 body#home {
-    background: url("perutrail.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    background: url("perutrail copy.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 }
 
 body#contact {
-		background: url("makboat.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+		background: url("makboatresize.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 		background-size: 100% 100%;
 }
 
-div#wishhere { font: italic;
-
-} */
-
-body#about {background: url("peru10.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
-		background-size: 100% 100%;
+body#about {
+        background: url("peru.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background-size: 100% 100%;
 }
+
+
 h1 {
     color: black;
     font-family: Georgia;
@@ -25,7 +28,7 @@ h1 {
 a {
     text-decoration: none;
 		font-weight: bold;
-		font-size: 50px;
+		font-size: 20px;
 }
 
 div.intro {
@@ -48,6 +51,13 @@ div.intro {
     text-align: left;
 }
 
-.intro a {
-	
+.center, div.center {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    font-family: Georgia;
+    margin: 15px auto;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    width: 500px;
 }
