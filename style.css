@@ -6,6 +6,19 @@
 height: 70px;
 }
 
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: grey;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
 .navbar-brand {
     padding-top: 0;
 }
@@ -20,6 +33,7 @@ height: 70px;
 .navbar-collapse a {  
     color: #ffffff;
     font-family: 'Architects Daughter', 'san-serif';
+    font-size: 1.5em;
 }
 
 .navbar-text {
@@ -27,6 +41,7 @@ height: 70px;
     color: #ffffff;
     font-size: 3.5em;
     margin-top: 0;
+    text-decoration: none;
 
 }
 
@@ -50,23 +65,20 @@ body#contact {
 
 h1 {
     color: black;
-    font-family: Helvetica;
+    font-family: Georgia;
     line-height: 40px;
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-		font-weight: bold;
-		font-size: 20px;
-}
 
 div.intro {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 7px;
-    font-family: Helvetica;
-    left: 650px;
-    margin: 45px;
+    font-family: Georgia;
+    font-size: 1.25em;
+    float: right;
+    margin: 100px;
+    margin-right: 250px;
     padding: 20px;
     position: relative;
     text-align: left;
@@ -75,13 +87,14 @@ div.intro {
 
 
  .intro h3 {
-    background: none repeat scroll 0 0 #1975a3;
+    background: none repeat scroll 0 0 #457289;
     border-radius: 5px;
     color: white;
     text-align: left;
+    padding: 1%;
 }
 
-.center, div.center {
+.center {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 7px;
     font-family: Georgia;
@@ -97,7 +110,7 @@ footer.container-fluid{
     font-family: 'Architects Daughter', 'san-serif';
     position: fixed;
     width: 100%;
-    height: 40px;
+    height: 35px;
     bottom: 0;
     padding-bottom: 2%;
 }
@@ -105,19 +118,19 @@ footer.container-fluid{
 footer ul li {
     display: inline-block;
     list-style: none;
-    padding: 1%;
+    padding-right: 2%;
     float:right;
 }
 
 footer p {
     float: left;
-    padding: 1%;
+    margin-top: 10px;
 }
+
 
 footer a,
 footer p {
     color: #fff;
-    vertical-align: middle;
 }
 
 /* Media Queries, start collapsing once gets to certain pixels */
