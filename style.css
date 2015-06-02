@@ -119,7 +119,7 @@ div.intro {
     margin-left: 300px;
 }
 
-.row ul:hover img {
+.row ul:hover img{
     -webkit-transform:scale(4.25); /* Safari and Chrome */
      transform:scale(4.25);
      z-index: 1; 
