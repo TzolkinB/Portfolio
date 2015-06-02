@@ -82,7 +82,7 @@ div.intro {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 7px;
     font-family: Georgia;
-    font-size: 1.25em;
+    font-size: 1em;
     float: right;
     margin: 100px;
     margin-right: 250px;
@@ -93,7 +93,7 @@ div.intro {
 }
 
 .intro a {
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 
@@ -116,8 +116,8 @@ div.intro {
     width: 500px;
 }
 
-.portfolio {
-    text-align: center;
+.row {
+    margin-left: 200px;
 }
 
 footer.container-fluid{
