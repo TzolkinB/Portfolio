@@ -1,5 +1,5 @@
 .navbar-custom {
-    background-color: #000000;
+    background-color: #384A56;
 }
 
 .navbar-fixed-top {
@@ -145,7 +145,7 @@ div.intro {
 
 
 footer.container-fluid{
-    background-color: #000000;
+    background-color: #91A2AC;
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     position: fixed;
@@ -163,8 +163,9 @@ footer ul li {
 
 footer p {
     float: left;
+    padding-left: 70%;
     margin-top: 10px;
-    font-size: 0.75em;
+    font-size: 1em;
 }
 
 
