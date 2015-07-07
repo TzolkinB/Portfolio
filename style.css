@@ -145,7 +145,7 @@ div.intro {
 
 
 footer.container-fluid{
-    background-color: #91A2AC;
+    background-color: #6f8693;
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     position: fixed;
@@ -159,11 +159,13 @@ footer ul li {
     display: inline-block;
     list-style: none;
     float:right;
+    padding: 0.5%;
+
 }
 
 footer p {
     float: left;
-    padding-left: 70%;
+    /*padding-left: 70%;*/
     margin-top: 10px;
     font-size: 1em;
 }
