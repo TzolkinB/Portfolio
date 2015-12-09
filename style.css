@@ -118,6 +118,10 @@ div.intro {
     text-align: center;
 }
 
+.wrap {
+    margin-bottom: 75px;
+}
+
 .center {
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 7px;
